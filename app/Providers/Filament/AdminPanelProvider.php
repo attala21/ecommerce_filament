@@ -38,7 +38,7 @@ class AdminPanelProvider extends PanelProvider
             ->emailChangeVerification()
             ->profile()
             ->colors([
-                'primary' => Color::Blue,
+                'primary' => Color::Red,
             ]);
     }
 }
